@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projet 2 pacours Developpeur Web</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/b71b864750.js" crossorigin="anonymous"  defer></script>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b71b864750.js" crossorigin="anonymous" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-   <header>
-    <div class="logo">
-        <img src="assets/img/Booki.png" alt="">
-    </div>
-    <div class="menu">
-        <div class="trait">
-            <hr>
+    <header>
+        <div class="logo">
+            <img src="assets/img/Booki.png" alt="">
         </div>
-        <nav>
-            <ul  class="listeMenu">
-                <li class="menuNavig navig1"> <a href="#">Hébergement</a> </li>
-                <li class="menuNavig "><a href="">Activités</a> </li>
-            </ul>
-        </nav>
-    </div>
-   </header>
-   <main>
-    <section class="recherche">
-        <div class="titleSearch">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre de ville ou en pleine nature</p>
+        <div class="menu">
+            <div class="trait">
+                <hr>
+            </div>
+            <nav>
+                <ul class="listeMenu">
+                    <li class="menuNavig navig1"> <a href="#">Hébergement</a> </li>
+                    <li class="menuNavig "><a href="">Activités</a> </li>
+                </ul>
+            </nav>
         </div>
-        <div  class="inputSearch">
-            <div class="localisation">
-                <i class="fas fa-map-marker"></i>
+    </header>
+    <main>
+        <section class="recherche">
+            <div class="titleSearch">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre de ville ou en pleine nature</p>
             </div>
-            <div class="inputs">
-                <input type="search">
+            <div class="inputSearch">
+                <div class="localisation">
+                    <i class="fas fa-map-marker-alt "></i>
+                </div>
+                <div class="inputs">
+                    <input type="search" placeholder="Marseille, France">
+                </div>
+                <div class="research">
+                    <input type="button" value="recherche">
+                </div>
             </div>
-            <div class="research">
-                <input type="button">
+            <div class="filterSearch">
+                <div class="titleFilter">
+                    <h1>Filtres</h1>
+                </div>
+                <div class="filterCase">
+                    <div class="filtreIcon">
+                        <i class="fas fa-money-bill-wave "></i>
+                    </div>
+                    <span><strong>Economique</strong> </span>
+                </div>
+                <div class="filterCase">
+                    <div class="filtreIcon">
+                        <i class="fas fa-child "></i>
+                    </div>
+                    <span><strong>Familial</strong> </span>
+                </div>
+                <div class="filterCase">
+                    <div class="filtreIcon">
+                        <i class="fas fa-heart "></i>
+                    </div>
+                    <span><strong>Romantique</strong> </span>
+                </div>
+                <div class="filterCase">
+                    <div class="filtreIcon">
+                        <i class="fas fa-dog "></i>
+                    </div>
+                    <span><strong>Animaux autorisés</strong> </span>
+                </div>
             </div>
-        </div>
-        <div class="filterSearch"></div>
-        <div class="findResult"></div>
-    </section>
-   </main>
+            <div class="findResult"></div>
+        </section>
+    </main>
 </body>
+
 </html>

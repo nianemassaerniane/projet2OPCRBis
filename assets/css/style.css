@@ -70,3 +70,60 @@ nav ul  li{
     padding: 20px;
     display: flex;
 }
+.localisation{
+	display: flex;
+	border: 0px solid black;
+	border-right: 0;
+	border-radius: 12px 0 0  12px;
+	width: 50px;
+	height: 50px;
+	justify-content: center;
+		background-color: #d9d9d9;
+
+}
+.localisation i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inputs input{
+	width: 190px;
+	height: 50px;
+	border: 0.1px  solid #d9d9d9;
+	text-align: center;
+}
+.research input{
+	height: 50px;
+	width: 120px;
+	background-color: #0065fc;
+	color: white;
+	border-radius: 0 12px 12px 0;
+	border: 0.1px solid #d9d9d9;
+
+}
+.filterSearch{
+	display: flex;
+	align-items: center;
+}
+.filterCase{
+	display: flex;
+	text-align: center;
+	border: 1.5px solid #d9d9d9;
+	padding: 12px 25px;
+	margin: 0 22px;
+	border-radius: 32px ;
+}
+.filterCase i{
+	padding-right: 12px;
+}
+.filtreIcon{display: flex;
+	align-items: center;
+height: 30px;
+width: 30px;
+background-color: #d9d9d9;
+border-radius: 50%;
+}
+.filtreIcon i{
+	display: flex;
+	justify-content: center;
+}
