@@ -66,8 +66,12 @@ nav ul  li{
 .navig1{
     color: blue;
 }
+/*-------------
+ 	SECTION RECHERCHE
+-------------*/
+
 .inputSearch{
-    padding: 20px;
+    padding: 20px 0px;
     display: flex;
 }
 .localisation{
@@ -107,9 +111,9 @@ nav ul  li{
 }
 .filterCase{
 	display: flex;
-	text-align: center;
+	align-items: center;
+	justify-content: space-between;
 	border: 1.5px solid #d9d9d9;
-	padding: 12px 25px;
 	margin: 0 22px;
 	border-radius: 32px ;
 }
@@ -117,13 +121,101 @@ nav ul  li{
 	padding-right: 12px;
 }
 .filtreIcon{display: flex;
-	align-items: center;
-height: 30px;
-width: 30px;
+justify-content:center;
+height: 40px;
+width: 40px;
 background-color: #d9d9d9;
 border-radius: 50%;
+margin-right: 12px;
+
 }
 .filtreIcon i{
 	display: flex;
+	align-items: center;
+	color: #0065fc;	
+}
+.findResult{
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+}
+.iconFind{
+	display: flex;
 	justify-content: center;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #d9d9d9;
+	border-radius: 50%;
+}
+.iconFind i{
+display: flex;
+align-items: center;
+color: #0065fc;
+}
+.textFindResult{
+	margin-left: 12px;
+}
+
+/*---------------------------
+ 	SECTION HEBERGEMNT
+-----------------------------*/
+.hebergement{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.hebergementMarseille{
+	width: 64%;
+	height: 627px;
+	background-color: #d9d9d9;
+	margin-top: 12px;
+	border-radius: 20px;
+}
+.populaire{
+	width: 26%;
+	height: 627px;
+	background-color: #d9d9d9;
+	margin-top: 12px;
+	border-radius: 20px;
+}
+.titleHebergement, .infoHebergement h1{
+	margin: 22px 10px;
+}
+
+.titlePopulaire {
+	display: flex;
+	margin: 22px 20px;
+	justify-content: space-between;
+}
+.blocHebergement{
+	display: flex; 
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.cardHebergement{
+	width: 246px;
+	height: 200px;
+	background-color: #fff;
+	border-radius: 20px;
+	margin:0   10px  40px 10px ;
+}
+.imageCard{
+	display: flex;
+	justify-content: center;
+}
+.imageCard img{
+	width: 234px;
+	height: 120px;
+	border-radius: 20px 20px 0 0;
+	margin-top: 6px;
+}
+.infoCard{
+	margin-left: 12px;
+}
+.col{
+	color: #0065fc;
+}
+.noCol{
+	color: #d9d9d9;
 }
