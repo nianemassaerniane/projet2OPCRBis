@@ -219,3 +219,69 @@ color: #0065fc;
 .noCol{
 	color: #d9d9d9;
 }
+.cardPopulaire{
+	display: flex;
+	
+	width: 296px;
+	height: 150px;
+	background-color: #fff;
+	border-radius: 20px;
+	margin:  0  10px  40px 10px ;
+}
+.imageCardPop img{
+	width: 114px;
+	height: 138px;
+	border-radius: 20px 0  0 20px  ;
+	margin-top: 6px;
+	margin-left: 6px;
+}
+.infoCardPop{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+.infoCardPop p{
+	margin-top: 10px;
+}
+.assignedNotePop{
+	margin-top: 40px;
+}
+
+/*---------------------------
+ 	SECTTION ACTIVITE
+-----------------------------*/
+
+.activite{
+	margin-top: 40px;
+	display: flex;
+	height: 650px;
+	flex-direction: column;
+}
+.blocActivite{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.blocsCard{
+	height: 500px;
+	background-color: white;
+	width: 22%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	box-shadow: 0 0 20px #0000002e;
+}
+.imageCardActivite img{
+	height: 400px;
+	width: 100%;
+	border-radius: 20px 20px 0 0;
+}
+.titleActivite{
+	height: 50px;
+}
+.titleActiviteCard{
+	margin: 20px 0 20px 20px;
+}
+.titleActiviteCar h2{
+	font-weight: 10px;
+}
