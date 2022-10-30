@@ -1,35 +1,35 @@
 /*-------------
  	General
 -------------*/
-
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-html{
-    font-family: "Raleway", "Sans serif";
+html {
+	font-family: "Raleway", "Sans serif";
 	color: #555;
 }
 
-ul, nav{
+ul,
+nav {
 	list-style: none;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
 	opacity: 0.9;
 }
 
-a:hover{
+a:hover {
 	opacity: 1;
 }
 
 
-hr{
+hr {
 	width: 150px;
 	height: 2px;
 	background-color: #2196F3;
@@ -37,7 +37,7 @@ hr{
 	margin-bottom: 10px;
 }
 
-section{
+section {
 	display: flex;
 	flex-direction: column;
 }
@@ -45,58 +45,68 @@ section{
 /*-------------
  	HEADER
 -------------*/
-header{
-    display: flex;
-    justify-content: space-between;
+header {
+	display: flex;
+	justify-content: space-between;
 }
-nav ,ul{
-    display: flex;
+
+nav,
+ul {
+	display: flex;
 }
-nav ul  li{
-    padding: 25px;
+
+nav ul li {
+	padding: 25px;
 }
-.logo{
-    padding: 32px;
+
+.logo {
+	padding: 32px;
 }
-.logo img{
-    width: 100px;
-    height:40px ;
-    
+
+.logo img {
+	width: 100px;
+	height: 40px;
+
 }
-.navig1{
-    color: blue;
+
+.navig1 {
+	color: blue;
 }
+
 /*-------------
  	SECTION RECHERCHE
 -------------*/
 
-.inputSearch{
-    padding: 20px 0px;
-    display: flex;
+.inputSearch {
+	padding: 20px 0px;
+	display: flex;
 }
-.localisation{
+
+.localisation {
 	display: flex;
 	border: 0px solid black;
 	border-right: 0;
-	border-radius: 12px 0 0  12px;
+	border-radius: 12px 0 0 12px;
 	width: 50px;
 	height: 50px;
 	justify-content: center;
-		background-color: #d9d9d9;
-
+	background-color: #d9d9d9;
 }
-.localisation i{
+
+.localisation i {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.inputs input{
+
+.inputs input {
 	width: 190px;
 	height: 50px;
-	border: 0.1px  solid #d9d9d9;
+	border: 0.1px solid #d9d9d9;
 	text-align: center;
 }
-.research input{
+
+.research input {
 	height: 50px;
 	width: 120px;
 	background-color: #0065fc;
@@ -105,41 +115,49 @@ nav ul  li{
 	border: 0.1px solid #d9d9d9;
 
 }
-.filterSearch{
+
+.filterSearch {
 	display: flex;
 	align-items: center;
 }
-.filterCase{
+
+.filterCase {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	border: 1.5px solid #d9d9d9;
 	margin: 0 22px;
-	border-radius: 32px ;
+	border-radius: 32px;
 }
-.filterCase i{
+
+.filterCase i {
 	padding-right: 12px;
 }
-.filtreIcon{display: flex;
-justify-content:center;
-height: 40px;
-width: 40px;
-background-color: #d9d9d9;
-border-radius: 50%;
-margin-right: 12px;
+
+.filtreIcon {
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	width: 40px;
+	background-color: #d9d9d9;
+	border-radius: 50%;
+	margin-right: 12px;
 
 }
-.filtreIcon i{
+
+.filtreIcon i {
 	display: flex;
 	align-items: center;
-	color: #0065fc;	
+	color: #0065fc;
 }
-.findResult{
+
+.findResult {
 	display: flex;
 	align-items: center;
 	margin-top: 12px;
 }
-.iconFind{
+
+.iconFind {
 	display: flex;
 	justify-content: center;
 	width: 30px;
@@ -147,39 +165,45 @@ margin-right: 12px;
 	border: 1px solid #d9d9d9;
 	border-radius: 50%;
 }
-.iconFind i{
-display: flex;
-align-items: center;
-color: #0065fc;
+
+.iconFind i {
+	display: flex;
+	align-items: center;
+	color: #0065fc;
 }
-.textFindResult{
+
+.textFindResult {
 	margin-left: 12px;
 }
 
 /*---------------------------
  	SECTION HEBERGEMNT
 -----------------------------*/
-.hebergement{
+.hebergement {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
+
 }
-.hebergementMarseille{
+
+.hebergementMarseille {
 	width: 64%;
 	height: 627px;
 	background-color: #d9d9d9;
 	margin-top: 12px;
 	border-radius: 20px;
 }
-.populaire{
+
+.populaire {
 	width: 26%;
 	height: 627px;
 	background-color: #d9d9d9;
 	margin-top: 12px;
 	border-radius: 20px;
 }
-.titleHebergement, .infoHebergement h1{
+
+.titleHebergement,
+.infoHebergement h1 {
 	margin: 22px 10px;
 }
 
@@ -188,62 +212,74 @@ color: #0065fc;
 	margin: 22px 20px;
 	justify-content: space-between;
 }
-.blocHebergement{
-	display: flex; 
+
+.blocHebergement {
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.cardHebergement{
+
+.cardHebergement {
 	width: 246px;
 	height: 200px;
 	background-color: #fff;
 	border-radius: 20px;
-	margin:0   10px  40px 10px ;
+	margin: 0 10px 40px 10px;
 }
-.imageCard{
+
+.imageCard {
 	display: flex;
 	justify-content: center;
 }
-.imageCard img{
+
+.imageCard img {
 	width: 234px;
 	height: 120px;
 	border-radius: 20px 20px 0 0;
 	margin-top: 6px;
 }
-.infoCard{
+
+.infoCard {
 	margin-left: 12px;
 }
-.col{
+
+.col {
 	color: #0065fc;
 }
-.noCol{
+
+.noCol {
 	color: #d9d9d9;
 }
-.cardPopulaire{
+
+.cardPopulaire {
 	display: flex;
-	
+
 	width: 296px;
 	height: 150px;
 	background-color: #fff;
 	border-radius: 20px;
-	margin:  0  10px  40px 10px ;
+	margin: 0 10px 40px 10px;
 }
-.imageCardPop img{
+
+.imageCardPop img {
 	width: 114px;
 	height: 138px;
-	border-radius: 20px 0  0 20px  ;
+	border-radius: 20px 0 0 20px;
 	margin-top: 6px;
 	margin-left: 6px;
 }
-.infoCardPop{
+
+.infoCardPop {
 	display: flex;
 	flex-direction: column;
 	margin-left: 15px;
 }
-.infoCardPop p{
+
+.infoCardPop p {
 	margin-top: 10px;
 }
-.assignedNotePop{
+
+.assignedNotePop {
 	margin-top: 40px;
 }
 
@@ -251,18 +287,20 @@ color: #0065fc;
  	SECTTION ACTIVITE
 -----------------------------*/
 
-.activite{
+.activite {
 	margin-top: 40px;
 	display: flex;
 	height: 650px;
 	flex-direction: column;
 }
-.blocActivite{
+
+.blocActivite {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.blocsCard{
+
+.blocsCard {
 	height: 500px;
 	background-color: white;
 	width: 22%;
@@ -271,17 +309,73 @@ color: #0065fc;
 	border-radius: 20px;
 	box-shadow: 0 0 20px #0000002e;
 }
-.imageCardActivite img{
+
+.imageCardActivite img {
 	height: 400px;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 }
-.titleActivite{
+
+.titleActivite {
 	height: 50px;
 }
-.titleActiviteCard{
+
+.titleActiviteCard {
 	margin: 20px 0 20px 20px;
 }
-.titleActiviteCar h2{
+
+.titleActiviteCar h2 {
 	font-weight: 10px;
+}
+
+/*---------------------------
+ 	FOOTER
+-----------------------------*/
+footer {
+	height: 225px;
+	background-color: #d9d9d9;
+
+}
+
+.containerFooter {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 60px;
+}
+
+.about,
+.hebergementFooter,
+.contact {
+	margin-top: 30px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.hebergementFooter,
+.contact {
+	height: 90px;
+}
+
+/*---------------------------
+ 	MEDIA QUERIES
+-----------------------------*/
+@media screen and (min-width:2400px) {
+	.cardPopulaire{
+		margin: 20px auto;
+		width: 80%;
+	}
+	.imageCardPop img{
+		width:230px ;
+	}
+	.cardHebergement {
+		height: 240px;
+		width: 460px;
+	}
+	.imageCard img {
+		width: 454px;
+		height: 150px;
+	}
+		
 }
