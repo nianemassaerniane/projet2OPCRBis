@@ -24,7 +24,8 @@ a {
 	cursor: pointer;
 	opacity: 0.9;
 }
-hr:nth-child(2){
+
+hr:nth-child(2) {
 	display: none;
 }
 
@@ -112,11 +113,13 @@ nav ul li {
 	text-align: center;
 	background-color: #fff;
 }
-.research{
+
+.research {
 	display: flex;
 	align-items: center;
 }
-.research i{
+
+.research i {
 	display: none;
 	position: absolute;
 	padding-left: 10px;
@@ -340,10 +343,7 @@ nav ul li {
 	margin: 10px 0 20px 20px;
 }
 
-.titleActiviteCar h2 {
-	font-weight: 10px;
-}
-.titleActiviteCard h2{
+.titleActiviteCard h2 {
 	font-size: medium;
 }
 
@@ -381,203 +381,257 @@ footer {
  	MEDIA QUERIES
 -----------------------------*/
 @media screen and (min-width:2400px) {
-	.cardPopulaire{
+	.cardPopulaire {
 		margin: 20px auto;
 		width: 80%;
 	}
-	.imageCardPop img{
-		width:230px ;
+
+	.imageCardPop img {
+		width: 230px;
 	}
+
 	.cardHebergement {
 		height: 240px;
 		width: 460px;
 	}
+
 	.imageCard img {
 		width: 454px;
 		height: 150px;
 	}
-		
+
 }
+
 /*---------------------------MEDIA QUERIES little desktop and tablette-----------------------------*/
 @media screen and (max-width:1200px) {
 	.hebergement {
 		flex-direction: column;
 	}
+
 	.hebergementMarseille {
 		width: 100%;
 	}
+
 	.populaire {
 		width: 100%;
 		height: 300px;
 		margin-top: 50px;
 	}
-	.blocPopulaire{
+
+	.blocPopulaire {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 	}
 }
+
 @media screen and (max-width:1100px) {
-	.blocsCard{
+	.blocsCard {
 		height: 310px;
 	}
-	.imageCardActivite img{
+
+	.imageCardActivite img {
 		height: 250px;
 	}
-	.activite{
+
+	.activite {
 		height: 450px;
 	}
-	}
+}
+
 @media screen and (max-width:820px) {
 	.populaire {
-		
+
 		height: 500px;
 		margin-top: 50px;
 	}
-	.blocPopulaire{
+
+	.blocPopulaire {
 		flex-wrap: wrap;
 	}
+
 	.hebergementMarseille {
 		height: 850px;
 	}
-	.filterSearch{
+
+	.filterSearch {
 		flex-wrap: wrap;
 	}
-	.filterCase{
+
+	.filterCase {
 		margin-top: 9px;
 	}
+
 	.titleActiviteCard {
 		margin: 2px 0 20px 20px;
 	}
 }
+
 @media screen and (max-width:768px) {
-	.activite{
+	.activite {
 		height: 100%;
 	}
-	.blocActivite{
+
+	.blocActivite {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		margin: 0 auto;
 	}
-	.blocsCard{
+
+	.blocsCard {
 		height: 210px;
 		width: 180px;
 		margin: 20px;
 	}
-	.imageCardActivite img{
+
+	.imageCardActivite img {
 		height: 150px;
 	}
+
 	.populaire {
 		height: 100%;
 	}
+
 	.hebergementMarseille {
 		height: 100%;
 	}
-	footer{
+
+	footer {
 		height: 100%;
 	}
-	.containerFooter{
+
+	.containerFooter {
 		flex-wrap: wrap;
 		flex-direction: column;
 		margin: 0;
 		padding: 20px 35px;
 	}
+
 	.titleActiviteCard {
 		margin: 10px 0 20px 20px;
 	}
 
 }
-@media screen and (max-width:468px) {
-header{
-	flex-direction: column;
-}
-.logo{
-	margin: 0 auto;
-	padding: 0;
-}
-.menu{
-	display: flex;
-	flex-direction: column-reverse;
-}
-.menuNavig {
-padding: 15px 47px;
-}
-hr{
-	width: 50%;
-}
-hr:nth-child(2){
-	display: block;
-	background-color: #d9d9d9;
-	width: 50%;
 
+@media screen and (max-width:468px) {
+	header {
+		flex-direction: column;
+	}
+
+	.logo {
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.menu {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.menuNavig {
+		padding: 15px 47px;
+	}
+
+	hr {
+		width: 50%;
+	}
+
+	hr:nth-child(2) {
+		display: block;
+		background-color: #d9d9d9;
+		width: 50%;
+
+	}
+
+	.trait {
+		display: flex;
+	}
+
+	.hebergementMarseille {
+		background-color: #fff;
+	}
+
+	.cardHebergement {
+		width: 100%;
+		height: 250px;
+		box-shadow: 0 0 20px #0000002e;
+		margin: 20px auto;
+	}
+
+	.imageCard img {
+		width: 100%;
+		height: 170px;
+		object-fit: cover;
+	}
+
+	.hebergement {
+		flex-direction: column-reverse;
+	}
+
+	.cardPopulaire {
+		width: 100%;
+	}
+
+	.infoCardPop {
+		margin-top: 10px;
+	}
+
+	.blocActivite {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 0;
+	}
+
+	.blocsCard {
+		height: 200px;
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	.imageCardActivite img {
+		object-fit: cover;
+	}
+
+	.research input[value="recherche"] {
+		color: #0065fc;
+	}
+
+	.research i {
+		display: block;
+	}
+
+	.research input {
+		width: 40px;
+	}
 }
-.trait{
-	display: flex;
-}
-.hebergementMarseille{
-	background-color: #fff;
-}
-.cardHebergement{
-	width: 100%;
-	height: 250px;
-	box-shadow: 0 0 20px #0000002e;
-	margin: 20px  auto;
-}
-.imageCard  img{
-	width: 100%;
-	height: 170px;
-	object-fit: cover;
-}
-.hebergement{
-	flex-direction: column-reverse;
-}
-.cardPopulaire{
-	width: 100%;
-}
-.infoCardPop{
-	margin-top: 10px;
-}
-.blocActivite{
-	display: grid;
-	grid-template-columns: 1fr ;
-	margin: 0;
-}
-.blocsCard{
-	height: 200px;
-	width: 100%;
-	margin: 20px 0;
-}
-.imageCardActivite img{
-	object-fit: cover;
-}
-.research input[value="recherche"]{
-	color: #0065fc;
-}
-.research i{
-	display: block;
-}
-.research input{
-	width: 40px;
-}
-}
+
 @media screen and (max-width:368px) {
 	.menuNavig {
 		padding: 15px 25px;
-		}
-		
-		
-		.iconFind{
-			width: 46px;
-		}
-		.assignedNotePop{
-			margin-top: 22px;
-		}
-		.imageCard img{
-			height: 150px;
-		}
-		.infoCard h3,span,.assignedNote{
-			padding: 5px;
-		}
-		
-		
+	}
+
+
+	.iconFind {
+		width: 46px;
+	}
+
+	.assignedNotePop {
+		margin-top: 22px;
+	}
+
+	.imageCard img {
+		height: 150px;
+	}
+
+	.infoCard h3,
+	span,
+	.assignedNote {
+		padding: 5px;
+	}
+
+
 }
+
+/*---------------------------
+ 	Fin projet verification w3C htm et css
+-----------------------------*/
