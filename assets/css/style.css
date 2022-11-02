@@ -109,8 +109,19 @@ nav ul li {
 	border: 0.1px solid #d9d9d9;
 	text-align: center;
 }
+.research{
+	display: flex;
+	align-items: center;
+}
+.research i{
+	display: none;
+	position: absolute;
+	padding-left: 10px;
+	color: white;
+}
 
 .research input {
+	position: relative;
 	height: 50px;
 	width: 120px;
 	background-color: #0065fc;
@@ -323,7 +334,7 @@ nav ul li {
 }
 
 .titleActiviteCard {
-	margin: 20px 0 20px 20px;
+	margin: 10px 0 20px 20px;
 }
 
 .titleActiviteCar h2 {
@@ -382,7 +393,7 @@ footer {
 		
 }
 /*---------------------------MEDIA QUERIES little desktop and tablette-----------------------------*/
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1200px) {
 	.hebergement {
 		flex-direction: column;
 	}
@@ -429,6 +440,9 @@ footer {
 	.filterCase{
 		margin-top: 9px;
 	}
+	.titleActiviteCard {
+		margin: 2px 0 20px 20px;
+	}
 }
 @media screen and (max-width:768px) {
 	.activite{
@@ -458,6 +472,12 @@ footer {
 	}
 	.containerFooter{
 		flex-wrap: wrap;
+		flex-direction: column;
+		margin: 0;
+		padding: 20px 35px;
+	}
+	.titleActiviteCard {
+		margin: 20px 0 20px 20px;
 	}
 
 }
@@ -474,7 +494,7 @@ header{
 	flex-direction: column-reverse;
 }
 .menuNavig {
-padding: 15px 75px;
+padding: 15px 47px;
 }
 hr{
 	width: 50%;
@@ -524,4 +544,19 @@ hr:nth-child(2){
 .imageCardActivite img{
 	object-fit: cover;
 }
+}
+@media screen and (max-width:368px) {
+	.menuNavig {
+		padding: 15px 25px;
+		}
+		.research input{
+			width: 40px;
+		}
+		.research input[value="recherche"]{
+			color: #0065fc;
+		}
+		.research i{
+			display: block;
+		}
+
 }
