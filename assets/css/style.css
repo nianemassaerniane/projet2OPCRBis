@@ -548,20 +548,22 @@ hr:nth-child(2){
 .imageCardActivite img{
 	object-fit: cover;
 }
+.research input[value="recherche"]{
+	color: #0065fc;
+}
+.research i{
+	display: block;
+}
+.research input{
+	width: 40px;
+}
 }
 @media screen and (max-width:368px) {
 	.menuNavig {
 		padding: 15px 25px;
 		}
-		.research input{
-			width: 40px;
-		}
-		.research input[value="recherche"]{
-			color: #0065fc;
-		}
-		.research i{
-			display: block;
-		}
+		
+		
 		.iconFind{
 			width: 46px;
 		}
